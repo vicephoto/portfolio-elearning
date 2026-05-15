@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise" type="http://adlnet.gov/expapi/activities/course">
+      <name lang="en-US">UD1 - Los hidratos de carbono</name>
+      <description lang="en-US"></description>
+      <launch lang="en-US">index.html</launch>
+    </activity>
+      <activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/FGiKlPCBfx3d2amEIfGSzqchdq92hr0G" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Introducción/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/_owCJFdR_dt3P-c9fVbIHgQbuS-510Pw" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">1.1 Aporte al deportista/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/IDx5NyCejXfgIMeI8dguJ0mBejAz6SQN" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">1.2 El índice glucémico/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/eQv_oUWxS3Bsfg0BhDAhKo71kFBSemL_" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">1.3 El glucógeno muscular/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/EKu92IqcKv43HlCvcGd1u0_2BJBMFxiy" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Resumen/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Test de evaluación/quiz</name>
+      <description lang="en-US">A continuaci&amp;oacute;n realizaremos un test de evaluaci&amp;oacute;n de &lt;strong&gt;1&lt;/strong&gt;&lt;strong&gt;0 preguntas&lt;/strong&gt;.Para superarlo tendr&amp;aacute;s que alcanzar un &lt;strong&gt;80% de respuestas acertadas&lt;/strong&gt;.Si lo consigues podr&amp;aacute;s avanzar a la siguiente unidad.&amp;iquest;Est&amp;aacute;s preparad@?</description>
+    </activity>
+                                  
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/clfv8cjml002e3n6oatgok4m5" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;La funci&amp;oacute;n de los carbohidratos es aportar energ&amp;iacute;a?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfv8cjmo002f3n6o76kg6zjf</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfv8cjmo002f3n6o76kg6zjf</id>
+    <description lang="en-US">S&amp;iacute;, pero no la &amp;uacute;nica</description>
+  </component>
+    <component>
+    <id>choice_clfv8cjmo002g3n6ozr1o88vg</id>
+    <description lang="en-US">S&amp;iacute;, y es la &amp;uacute;nica</description>
+  </component>
+    <component>
+    <id>choice_clfv8d3lk002h3n6og1co48rb</id>
+    <description lang="en-US">No, no aportan energ&amp;iacute;a</description>
+  </component>
+    <component>
+    <id>choice_clfv8d7lj002i3n6ox1ywvm2c</id>
+    <description lang="en-US">No, aportan energ&amp;iacute;a y vitaminas</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/clfv8dexs002j3n6odb1f2m26" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;Cu&amp;aacute;les son los hidratos de carbono lentos?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfv8dexs002k3n6omxq96n77</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfv8dexs002k3n6omxq96n77</id>
+    <description lang="en-US">Las f&amp;eacute;culas</description>
+  </component>
+    <component>
+    <id>choice_clfv8dexs002l3n6o8nt08bfe</id>
+    <description lang="en-US">Los az&amp;uacute;cares</description>
+  </component>
+    <component>
+    <id>choice_clfv8dynw002m3n6ocfkeg1x8</id>
+    <description lang="en-US">Las vitaminas</description>
+  </component>
+    <component>
+    <id>choice_clfv8e327002n3n6o8oxtvwly</id>
+    <description lang="en-US">Los minerales</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/clfv8ebf4002o3n6om99z8yd3" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;Cu&amp;aacute;l de los siguientes no es un componente de los hidratos de carbono?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfv8ebf4002p3n6o4werz4j3</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfv8ebf4002p3n6o4werz4j3</id>
+    <description lang="en-US">Nitr&amp;oacute;geno</description>
+  </component>
+    <component>
+    <id>choice_clfv8ebf4002q3n6opwe0oaat</id>
+    <description lang="en-US">Hidr&amp;oacute;geno</description>
+  </component>
+    <component>
+    <id>choice_clfv8er4u002r3n6owapl19or</id>
+    <description lang="en-US">Carbono</description>
+  </component>
+    <component>
+    <id>choice_clfv8evj9002s3n6oaboxcmaf</id>
+    <description lang="en-US">Ox&amp;iacute;geno</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/clfv8f3ts002t3n6o8i4gfego" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;C&amp;oacute;mo se denomina el sistema para cuantificar la respuesta gluc&amp;eacute;mica de los carbohidratos?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfv8f3ts002u3n6osfnpig6p</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfv8f3ts002u3n6osfnpig6p</id>
+    <description lang="en-US">&amp;Iacute;ndice gluc&amp;eacute;mico</description>
+  </component>
+    <component>
+    <id>choice_clfv8f3ts002v3n6oplbqp3yl</id>
+    <description lang="en-US">&amp;Iacute;ndice de masa muscular</description>
+  </component>
+    <component>
+    <id>choice_clfv8fmuz002w3n6o2jkh12w6</id>
+    <description lang="en-US">Nivelaci&amp;oacute;n de az&amp;uacute;car en sangre</description>
+  </component>
+    <component>
+    <id>choice_clfv8fr33002x3n6ogu1ok12v</id>
+    <description lang="en-US">&amp;Iacute;ndice sacaroso</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/clfv8fzjz002y3n6o4o1dze46" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;Para qu&amp;eacute; colectivo son imprescindibles los carbohidratos tanto por su aporte de energ&amp;iacute;a como por su funci&amp;oacute;n de mantener la fatiga controlada?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfv8fzjz002z3n6ocnekzfkh</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfv8fzjz002z3n6ocnekzfkh</id>
+    <description lang="en-US">Deportistas</description>
+  </component>
+    <component>
+    <id>choice_clfv8fzjz00303n6oudysuhao</id>
+    <description lang="en-US">Personas mayores</description>
+  </component>
+    <component>
+    <id>choice_clfv8gf6x00313n6odw1vn3jy</id>
+    <description lang="en-US">Ni&amp;ntilde;os</description>
+  </component>
+    <component>
+    <id>choice_clfv8gl5800323n6od2tlzqca</id>
+    <description lang="en-US">Mujeres</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/clfv8hltd00383n6oy49w7njp" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;Cu&amp;aacute;ntas veces es menor el rendimiento de los carbohidratos con respecto a las grasas?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfv8hltd00393n6o561z54eh</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfv8hltd00393n6o561z54eh</id>
+    <description lang="en-US">2,5 veces</description>
+  </component>
+    <component>
+    <id>choice_clfv8hltd003a3n6orwf4fgnu</id>
+    <description lang="en-US">Dos veces</description>
+  </component>
+    <component>
+    <id>choice_clfv8i1u9003b3n6oeywbgxxa</id>
+    <description lang="en-US">3,5 veces</description>
+  </component>
+    <component>
+    <id>choice_clfv8i663003c3n6ofrjf7sil</id>
+    <description lang="en-US">Cinco veces</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/clfv8id2o003d3n6oxnsxlj7x" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;Con qu&amp;eacute; nombre no se conocen los hidratos de carbono?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfv8id2o003e3n6or37lv3kj</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfv8id2o003e3n6or37lv3kj</id>
+    <description lang="en-US">Minerales</description>
+  </component>
+    <component>
+    <id>choice_clfv8id2o003f3n6otx5rtrqm</id>
+    <description lang="en-US">Carbohidratos</description>
+  </component>
+    <component>
+    <id>choice_clfv8it94003g3n6o5c5muzt5</id>
+    <description lang="en-US">Gl&amp;uacute;cidos</description>
+  </component>
+    <component>
+    <id>choice_clfv8ixie003h3n6o05my9fb0</id>
+    <description lang="en-US">Az&amp;uacute;cares</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/clfv8jlj4003i3n6ojezis9eu" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;Cu&amp;aacute;les son los hidratos de carbono r&amp;aacute;pidos?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfv8jlj4003j3n6oesmkddo3</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfv8jlj4003j3n6oesmkddo3</id>
+    <description lang="en-US">Los az&amp;uacute;cares</description>
+  </component>
+    <component>
+    <id>choice_clfv8jlj4003k3n6oo7qwu6ug</id>
+    <description lang="en-US">Las f&amp;eacute;culas</description>
+  </component>
+    <component>
+    <id>choice_clfv8k2xy003l3n6ozsch2r19</id>
+    <description lang="en-US">Las vitaminas</description>
+  </component>
+    <component>
+    <id>choice_clfv8k7yj003m3n6oi0m6iqwa</id>
+    <description lang="en-US">Los minerales</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/cli8u4f6d00033n6pc9xi4mji" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;C&amp;oacute;mo son las mol&amp;eacute;culas de los hidratos de carbono lento que tardan m&amp;aacute;s en metabolizarse?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_cli8u4f6g00043n6p8xfaeg7o</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_cli8u4f6g00043n6p8xfaeg7o</id>
+    <description lang="en-US">M&amp;aacute;s complejas</description>
+  </component>
+    <component>
+    <id>choice_cli8u4f6g00053n6pvogflcla</id>
+    <description lang="en-US">M&amp;aacute;s sencillas</description>
+  </component>
+    <component>
+    <id>choice_cli8u61n600063n6pwypzour4</id>
+    <description lang="en-US">M&amp;aacute;s r&amp;aacute;pidas</description>
+  </component>
+    <component>
+    <id>choice_cli8u6a2f00073n6p850ykw73</id>
+    <description lang="en-US">M&amp;aacute;s estables</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://lHEGp3u6umX7tkRpaUzcvWIiaYDwdnw7_rise/iIDoW7gRXnkA-x_foFUW6zKFtG9LY4Z4/cli8v8bd500093n6pol6vm7em" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;Cu&amp;aacute;l de los siguientes no es una f&amp;eacute;cula?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_cli8v8bd8000a3n6p14xgb7fc</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_cli8v8bd8000a3n6p14xgb7fc</id>
+    <description lang="en-US">Miel</description>
+  </component>
+    <component>
+    <id>choice_cli8v8bd8000b3n6pi0d7stvs</id>
+    <description lang="en-US">Pasta</description>
+  </component>
+    <component>
+    <id>choice_cli8v95ta000c3n6psu45qjbc</id>
+    <description lang="en-US">Arroz</description>
+  </component>
+    <component>
+    <id>choice_cli8v9brb000d3n6ppuf413nm</id>
+    <description lang="en-US">Patata</description>
+  </component>
+    </choices>
+  </activity>
+                    </activities>
+</tincan>

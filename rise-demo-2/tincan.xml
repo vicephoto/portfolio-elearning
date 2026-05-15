@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise" type="http://adlnet.gov/expapi/activities/course">
+      <name lang="en-US">UD1 - Bases y teorías de la neuroeducación</name>
+      <description lang="en-US"></description>
+      <launch lang="en-US">index.html</launch>
+    </activity>
+      <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/Wf-ph-0tznbsV9RWGo79G_FfwvkEm7qm" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Introduccción y objetivos/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/nTqp_T82VsoMjIN2QgreMTkcv4P11aVR" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">1. Neurocultura/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/M_Reb8ehqeQ8Rwp6gGKaONvZhXXlg9Bk" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">2. Educación emocional/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/_SOH26zfGnS-gQ6S32Ey8PJ0tYhYh0ZX" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">3. Inteligencias múltiples/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/peTf122pn22IYGUKeslr1ZVgIPPkfb8I" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">4. Aprendizaje significativo/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/RvweYObRcf-evVkd6dMhdExoA9ZVXT7_" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Resumen/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/_YhExkwVNkQOvmjp8v4OWMAVJ0Ynapza" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Glosario/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/P2Df6WjRNjB8y2URLJzDe8lM_u9ykjAV" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Bibliografía/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Autoevaluación/quiz</name>
+      <description lang="en-US">A continuaci&amp;oacute;n realizaremos un test de &lt;strong&gt;evaluaci&amp;oacute;n de 10 preguntas&lt;/strong&gt;.&amp;nbsp;Para superarlo tendr&amp;aacute;s que alcanzar un &lt;strong&gt;80% de respuestas acertadas&lt;/strong&gt;.&lt;br&gt;&amp;iquest;Est&amp;aacute;s preparad@?</description>
+    </activity>
+                                  
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/clfjceb1w002e356qoh0117k7" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">La neurociencia es:</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfjceb20002g356qdywj0b95</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Conjunto de &amp;aacute;reas de investigaci&amp;oacute;n centradas en el conocimiento del cerebro desde un punto de vista de&amp;iacute;stico.</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Conjunto de &amp;aacute;reas de investigaci&amp;oacute;n centradas en el conocimiento del cerebro desde un punto de vista cient&amp;iacute;fico.</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">Conjunto de &amp;aacute;reas de investigaci&amp;oacute;n centradas en la conducta desde un punto de vista cient&amp;iacute;fico.</description>
+  </component>
+    <component>
+    <id>choice_cli7kxahn001u356qj4h8irkh</id>
+    <description lang="en-US">Conjunto de &amp;aacute;reas de investigaci&amp;oacute;n centradas en el estudio de la cultura desde un punto de vista cient&amp;iacute;fico.</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/cli7kwcco001o356qcst8v5td" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">Indica cu&amp;aacute;l de los siguientes acontecimientos es interno:</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfjceb20002f356q7wqd66ed</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Escuchar una canci&amp;oacute;n.</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Recordar un viaje.</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">Imaginar un paisaje.</description>
+  </component>
+    <component>
+    <id>choice_cli7kyilj001w356qkpwryvr9</id>
+    <description lang="en-US">Recordar un olor.</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/cli7kwb0u001m356qtptt15lg" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">Teniendo en cuenta que las emociones generan como respuesta un acontecimiento, indica el orden adecuado del proceso que se produce cuando vivimos una emoci&amp;oacute;n:</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfjceb20002g356qdywj0b95</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Acontecimiento, Predisposici&amp;oacute;n a la acci&amp;oacute;n y Valoraci&amp;oacute;n (Neurofisiol&amp;oacute;gica, Comportamental y Cognitiva).</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Acontecimiento, Valoraci&amp;oacute;n (Neurofisiol&amp;oacute;gica, Comportamental y Cognitiva) y Predisposici&amp;oacute;n a la acci&amp;oacute;n.</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">Predisposici&amp;oacute;n a la acci&amp;oacute;n, Acontecimiento y Valoraci&amp;oacute;n (Neurofisiol&amp;oacute;gica, Comportamental y Cognitiva).</description>
+  </component>
+    <component>
+    <id>choice_cli7l01nh001y356q9gsuwp9v</id>
+    <description lang="en-US">Acontecimiento, Valoraci&amp;oacute;n y Predisposici&amp;oacute;n a la acci&amp;oacute;n (Neurofisiol&amp;oacute;gica, Comportamental y Cognitiva).</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/cli7kwa4t001l356qs91g3n8d" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">La ansiedad es un tipo de emoci&amp;oacute;n:</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfjch160002m356qi7gc87t0</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Positiva.</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Neutral.</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">Negativa</description>
+  </component>
+    <component>
+    <id>choice_cli7l0tym001z356qc266d4i0</id>
+    <description lang="en-US">Pasiva.</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/cli7kw8fl001j356qaypr21mm" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">Cuando observo una obra de arte y lloro, es un tipo de emoci&amp;oacute;n:</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfjceb20002g356qdywj0b95</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Social.</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Est&amp;eacute;tica.</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">No es una emoci&amp;oacute;n.</description>
+  </component>
+    <component>
+    <id>choice_cli7l2cl80021356qhx3kyfaz</id>
+    <description lang="en-US">Positiva.</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/cli7kweri001q356qthi455si" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">&amp;iquest;En qu&amp;eacute; &amp;aacute;mbito educativo est&amp;aacute; m&amp;aacute;s presente la educaci&amp;oacute;n emocional?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfjceb20002f356q7wqd66ed</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Educaci&amp;oacute;n Formal</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Educaci&amp;oacute;n no Formal.</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">Educaci&amp;oacute;n no Formal.</description>
+  </component>
+    <component>
+    <id>choice_cli7l2ow20022356q1ipcw41x</id>
+    <description lang="en-US">Ninguna de las respuestas es correcta.</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/cli7kwh28001s356qcadwot59" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">Para aplicar en el aula la educaci&amp;oacute;n emocional es necesario planificar, y para ello se presentan unas fases determinadas. &amp;iquest;En qu&amp;eacute; fase se necesita identificar los destinatarios y las caracter&amp;iacute;sticas del contexto?</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_cli7l4gl50024356qukt7g684</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Dise&amp;ntilde;o</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Implantaci&amp;oacute;n.</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">Evaluaci&amp;oacute;n.</description>
+  </component>
+    <component>
+    <id>choice_cli7l4gl50024356qukt7g684</id>
+    <description lang="en-US">An&amp;aacute;lisis del contexto y detecci&amp;oacute;n de necesidades.</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/cli7l4vc80025356qcn7vd95u" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">Para H.Gardner la inteligencia es:</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfjch160002m356qi7gc87t0</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Es medible a partir de pruebas estandarizadas.</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Es estable toda la vida y no se puede cambiar.</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">Un conjunto de capacidades que pueden mejorarse con la pr&amp;aacute;ctica y la experiencia.</description>
+  </component>
+    <component>
+    <id>choice_cli7l6gfl002k356qukwfw3to</id>
+    <description lang="en-US">Existe una inteligencia con varios factores, no varias inteligencias.</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/cli7l55mp002i356q32t1u6nl" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">Una persona que trabaja como novelista tiene m&amp;aacute;s desarrollada la inteligencia:</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfjceb20002g356qdywj0b95</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Espacial.</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Lingu&amp;iuml;stica-verbal</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">Cin&amp;eacute;tica-Corporal.</description>
+  </component>
+    <component>
+    <id>choice_cli7l7b5j002l356qexrexnv0</id>
+    <description lang="en-US">Interpersonal</description>
+  </component>
+    </choices>
+  </activity>
+                              
+<activity id="http://fl-uCJk0jzXIkFHDk-2T36IoID-nmNJm_rise/l6MYgdjVw6l0uDmApuJBEDOf_0GCiGfa/cli7l522c002c356q7x201904" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+  <name lang="en-US">Cuando adquirimos un nuevo conocimiento a trav&amp;eacute;s de una pel&amp;iacute;cula es un aprendizaje:&amp;nbsp;</name>
+  <description lang="en-US"></description>
+  <interactionType>choice</interactionType>
+  <correctResponsePatterns>
+    <correctResponsePattern>choice_clfjch160002m356qi7gc87t0</correctResponsePattern>
+    </correctResponsePatterns>
+    <choices>
+    <component>
+    <id>choice_clfjceb20002f356q7wqd66ed</id>
+    <description lang="en-US">Aprendizaje experiencial.</description>
+  </component>
+    <component>
+    <id>choice_clfjceb20002g356qdywj0b95</id>
+    <description lang="en-US">Aprendizaje por descubrimiento.</description>
+  </component>
+    <component>
+    <id>choice_clfjch160002m356qi7gc87t0</id>
+    <description lang="en-US">Aprendizaje receptivo.</description>
+  </component>
+    <component>
+    <id>choice_cli7lb0sv002r356qmfzo9k01</id>
+    <description lang="en-US">Aprendizaje mec&amp;aacute;nico.</description>
+  </component>
+    </choices>
+  </activity>
+                    </activities>
+</tincan>
