@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fernando Jiménez — E-Learning Portfolio</title>
+  <title>Fernando Jiménez — Portafolio E-Learning</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
   <style>
@@ -19,6 +19,7 @@
       --accent2:   #3fb950;
       --accent3:   #d2a8ff;
       --accent4:   #ffa657;
+      --accent5:   #f78166;
       --font-head: 'Syne', sans-serif;
       --font-mono: 'DM Mono', monospace;
     }
@@ -62,7 +63,6 @@
       right: 24px;
       z-index: 100;
       display: flex;
-      gap: 0;
       border: 1px solid var(--border);
       border-radius: 3px;
       overflow: hidden;
@@ -72,7 +72,6 @@
     .lang-btn {
       font-family: var(--font-mono);
       font-size: 10px;
-      font-weight: 400;
       letter-spacing: 0.14em;
       text-transform: uppercase;
       color: var(--muted);
@@ -82,15 +81,8 @@
       cursor: pointer;
       transition: background 0.2s, color 0.2s;
     }
-
-    .lang-btn.active {
-      background: var(--border);
-      color: var(--text);
-    }
-
-    .lang-btn:not(.active):hover {
-      color: var(--accent);
-    }
+    .lang-btn.active { background: var(--border); color: var(--text); }
+    .lang-btn:not(.active):hover { color: var(--accent); }
 
     /* ─── WRAP ─── */
     .wrap {
@@ -226,6 +218,11 @@
     .card:hover { background: var(--bg2); }
     .card:hover::after { transform: scaleX(1); }
 
+    /* last card fills remaining space visually */
+    .card:last-child:nth-child(odd) {
+      border-right: 1px solid var(--border);
+    }
+
     .card-sl1::after { background: var(--accent); }
     .card-sl1 .card-label { color: var(--accent); }
     .card-sl1:hover .card-arrow { color: var(--accent); }
@@ -241,6 +238,10 @@
     .card-ri2::after { background: var(--accent3); }
     .card-ri2 .card-label { color: var(--accent3); }
     .card-ri2:hover .card-arrow { color: var(--accent3); }
+
+    .card-sl3::after { background: var(--accent5); }
+    .card-sl3 .card-label { color: var(--accent5); }
+    .card-sl3:hover .card-arrow { color: var(--accent5); }
 
     .card-label {
       font-size: 9px;
@@ -320,7 +321,7 @@
     }
     .footer-note { font-size: 11px; color: var(--border); letter-spacing: 0.06em; }
 
-    /* ─── FADE ─── */
+    /* ─── ANIMATIONS ─── */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(14px); }
       to   { opacity: 1; transform: translateY(0); }
@@ -329,7 +330,6 @@
     .cards      { animation: fadeUp 0.5s ease 0.12s both; }
     .about-grid { animation: fadeUp 0.5s ease 0.22s both; }
 
-    /* ─── LANG SWAP TRANSITION ─── */
     .lang-fade { transition: opacity 0.18s ease; }
     .lang-fade.switching { opacity: 0; }
 
@@ -346,7 +346,6 @@
 
 <div class="grid-line"></div>
 
-<!-- LANGUAGE TOGGLE -->
 <div class="lang-bar" role="group" aria-label="Language selector">
   <button class="lang-btn active" data-lang="es" onclick="setLang('es')">ES</button>
   <button class="lang-btn"        data-lang="en" onclick="setLang('en')">EN</button>
@@ -354,12 +353,9 @@
 
 <div class="wrap lang-fade" id="main-content">
 
-  <!-- HEADER -->
   <header>
     <p class="company-tag">Paradigm Technologies</p>
-
     <h1>Fernando <span class="last">Jiménez</span></h1>
-
     <div class="role-line">
       <span class="role" data-i18n="role1"></span>
       <span class="sep"></span>
@@ -367,9 +363,7 @@
       <span class="sep"></span>
       <span class="role" data-i18n="role3"></span>
     </div>
-
     <p class="subtitle" data-i18n="subtitle"></p>
-
     <div class="tools">
       <span class="tool-pill">Articulate Storyline</span>
       <span class="tool-pill">Rise 360</span>
@@ -382,7 +376,6 @@
     </div>
   </header>
 
-  <!-- DEMOS -->
   <section>
     <p class="section-label" data-i18n="demosLabel"></p>
 
@@ -416,13 +409,18 @@
         <span class="card-arrow" data-i18n="cta"></span>
       </a>
 
+      <a class="card card-sl3" href="./storyline-demo-3/" target="_blank" rel="noopener">
+        <span class="card-label">Articulate Storyline</span>
+        <h2 data-i18n="sl3Title"></h2>
+        <p  data-i18n="sl3Desc"></p>
+        <span class="card-arrow" data-i18n="cta"></span>
+      </a>
+
     </div>
   </section>
 
-  <!-- ABOUT -->
   <section style="padding-top:0;">
     <p class="section-label" data-i18n="aboutLabel"></p>
-
     <div class="about-grid">
       <div class="about-block">
         <h3 data-i18n="proc1Title"></h3>
@@ -437,7 +435,6 @@
 
 </div>
 
-<!-- FOOTER -->
 <footer class="wrap">
   <div class="footer-left">
     <span class="footer-name">Fernando Jiménez</span>
@@ -462,6 +459,8 @@
       ri1Desc:    'Diseño adaptativo con bloques estructurados, lecciones breves orientadas a mobile-first y evaluación de cierre.',
       ri2Title:   'Onboarding Corporativo',
       ri2Desc:    'Curso de inducción con acceso por secciones, multimedia integrado, lecciones tipo flashcard y checklist de progreso.',
+      sl3Title:   'Programa de Visas J-1 (EE.UU.)',
+      sl3Desc:    'Curso completo para asesores del programa de visas J-1. Navegación modular, personaje guía animado y evaluación final con seguimiento SCORM.',
       cta:        'Ver demo →',
       aboutLabel: 'Sobre el trabajo',
       proc1Title: 'Proceso',
@@ -484,6 +483,8 @@
       ri1Desc:    'Adaptive design with structured content blocks, short mobile-first lessons, and a closing quiz.',
       ri2Title:   'Corporate Onboarding',
       ri2Desc:    'Induction course with section-based access, integrated multimedia, flashcard-style lessons, and a progress checklist.',
+      sl3Title:   'J-1 Visa Program (USA)',
+      sl3Desc:    'Full course for J-1 visa program advisors. Modular navigation, animated guide character, and a final assessment with SCORM tracking.',
       cta:        'View demo →',
       aboutLabel: 'About the work',
       proc1Title: 'Process',
@@ -512,13 +513,9 @@
   function setLang(lang) {
     if (lang === currentLang) return;
     currentLang = lang;
-
-    // update buttons
     document.querySelectorAll('.lang-btn').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.lang === lang);
     });
-
-    // fade transition
     const content = document.getElementById('main-content');
     content.classList.add('switching');
     setTimeout(() => {
@@ -527,7 +524,6 @@
     }, 180);
   }
 
-  // init on load
   applyLang(currentLang);
 </script>
 
